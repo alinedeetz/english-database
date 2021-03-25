@@ -14,4 +14,5 @@ In order to run this container you'll need docker installed.
 
 Run the following command:
 
->$ docker run -e ENGLISH_DATABASE_DB_USERNAME="username" -e ENGLISH_DATABASE_DB_PASSWORD="password" -e ENGLISH_DATABASE_DB_HOSTNAME="hostname" -e ENGLISH_DATABASE_DB_PORT="port" -e ENGLISH_DATABASE_DB_NAME="database-name" --rm -p 5000:5000 english-database
+>$ docker run -e ENGLISH_DATABASE_DB_USERNAME="username" -e ENGLISH_DATABASE_DB_PASSWORD="password" -e ENGLISH_DATABASE_DB_HOSTNAME="hostname" -e ENGLISH_DATABASE_DB_PORT="port" -e ENGLISH_DATABASE_DB_NAME="database-name" --rm -p 5000:5000 alineem/english-database
+
