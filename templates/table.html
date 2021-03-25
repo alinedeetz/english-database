@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"  />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"   />
+        <title>Document</title>
+        <link rel="stylesheet" href="/static/table.css" />
+    </head>
+    <body>
+        <table class="content_table">
+            <tr>
+                <th>English Word</th>
+                <th>Translation</th>
+            </tr>
+            {% for result in data %}
+                <tr>
+                    <td>{{ result[0] }}</td>
+                    <td>{{ result[1] }}</td>
+                </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
