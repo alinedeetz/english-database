@@ -1,10 +1,23 @@
 tr {
     background-color: #fffefe;
 }
-table, th, td {
-    border: 1px solid rgb(252, 99, 99);
+caption, table, th, td {
+    border: 1px solid rgb(255, 131, 131);
 }
 
+th {
+    color: rgb(252, 99, 99);
+
+}
+
+caption {
+    font-size: large;
+    font-family: cursive;
+    font-style: oblique;
+    color: rgb(252, 99, 99);
+    height: 20px;
+    padding: 10px;
+}
 td {
     text-align: center;
 }
@@ -12,9 +25,8 @@ table {
     width: 50%;
 }
 
-
 th, td {
-    border-bottom: 1px solid rgb(255, 143, 143);
+    border-bottom: 1px solid rgb(255, 255, 255);
 }
 
-tr:hover {background-color: #ffdada;}
+tr:hover {background-color: #ffa8a8;}
